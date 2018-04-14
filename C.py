@@ -1,5 +1,3 @@
-from operator import itemgetter
-
 def cut(a, b):
 	val = [0,0,0]
 	val[0] = 2*a
@@ -14,7 +12,7 @@ def mor(val, dif):
 		if (l-a) < 0:
 			return l
 		elif (l-b) < 0:
-			return 0
+		        return 0
 		else:
 			l -= b
 	return l
