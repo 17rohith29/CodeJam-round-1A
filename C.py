@@ -17,7 +17,6 @@ def mor(val, dif):
 			l -= b
 	return l
 
-
 for i in range(0, int(input())):
 	n, p = map(int, input().split())
 	val = []
